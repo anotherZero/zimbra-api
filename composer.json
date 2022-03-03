@@ -1,7 +1,7 @@
 {
-    "name": "zelrone/soap-api",
+    "name": "anotherzero/soap-api",
     "type": "library",
-    "description": "PHP wrapper library around the Zimbra Soap API (web service) Upgraded to work on Guzzel 7.*",
+    "description": "PHP wrapper library around the Zimbra Soap API (web service) Upgraded to work on Guzzle 7.* and PHP 8",
     "keywords": [
         "library",
         "soap",
@@ -12,13 +12,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Zelrone",
+            "name": "anotherZero",
             "email": "zelsdiary@gmail.com",
             "homepage": "https://github.com/Zelrone"
         }
     ],
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.2.5|^8",
         "evenement/evenement": "~2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "phpcollection/phpcollection": "0.*"
